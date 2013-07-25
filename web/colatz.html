@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Colatz</title>
+    <link rel="stylesheet" href="colatz.css">
+  </head>
+  <body>
+    <h1>Colatz</h1>
+  
+    <div id="sample_container_id">
+      <p>suggested values: 5, 4890328815</p>
+      <p>
+      <label>
+        <p>Enter a whole number:</p>
+        <input id="number" type="text">
+      </label>
+      <button id="draw">Draw</button>
+      </p>
+      <canvas id="canvas" height="4000" width="320">Your browser does not support HTML5 Canvas.
+        </canvas>
+    </div>
+
+    <script type="application/dart" src="colatz.dart"></script>
+    <script src="packages/browser/dart.js"></script>
+  </body>
+</html>
